@@ -1,0 +1,35 @@
+.weather-page {
+    height: 100vh;
+    background-image: url('/src/assets/Ceu-Azul.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .blur-overlay {
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 60px 50px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 700px;
+    text-align: left;
+    color: white;
+    font-weight: 300;
+  }
+  
+  .weather-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .weather-info h1 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  

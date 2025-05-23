@@ -1,0 +1,70 @@
+.search-page {
+  height: 100vh;
+  background-image: url('/src/assets/Ceu-Azul.jpg'); 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.search-input {
+  padding: 14px 20px;
+  font-size: 18px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  width: 250px;
+}
+
+.country-select {
+  padding: 14px 16px;
+  font-size: 16px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  width: 160px;
+  background-color: #ffffff;
+  color: #333;
+  font-weight: 500;
+}
+
+.search-button {
+  padding: 14px 28px;
+  background-color: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}

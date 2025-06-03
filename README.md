@@ -18,10 +18,9 @@
 
 <p align="center">
   <img alt="Paiva Weather" src="./src/assets/paivaWeather.png width="100%">
-</p>
-<p align="center">
   <img alt="Paiva Weather" src="./src/assets/paivaWeather1.png width="100%">
 </p>
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:

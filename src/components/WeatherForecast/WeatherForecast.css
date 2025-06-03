@@ -1,0 +1,43 @@
+.forecast-container {
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+  }
+  
+  .forecast-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .forecast-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .forecast-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    border-radius: 16px;
+    padding: 20px;
+    width: 120px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .forecast-card .day {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .forecast-card .temp {
+    font-size: 20px;
+    margin: 5px 0;
+  }
+  
+  .forecast-card .desc {
+    font-size: 14px;
+  }
+  

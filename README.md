@@ -17,10 +17,10 @@
 <br>
 
 <p align="center">
-  <img alt="Paiva Weather" src=".github/paivaWeather.png width="100%">
+  <img alt="Paiva Weather" src="./src/assets/paivaWeather.png width="100%">
 </p>
 <p align="center">
-  <img alt="Paiva Weather" src=".github/paivaWeather1.png width="100%">
+  <img alt="Paiva Weather" src="./src/assets/paivaWeather1.png width="100%">
 </p>
 ## 🚀 Tecnologias
 
